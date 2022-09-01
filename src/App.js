@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useRef, useEffect } from "react";
 import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
@@ -97,7 +98,6 @@ function App(props) {
       listHeadingRef.current.focus();
     }
   }, [tasks.length, prevTaskLength]);
-
   return (
       <div className="todoapp stack-large">
         <Form addTask={addTask} />
@@ -107,7 +107,6 @@ function App(props) {
         <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
           {headingText}
         </h2>
-        /* eslint-disable no-console, no-control-regex*/
         <ul
             role="list"
             className="todo-list stack-large stack-exception"
