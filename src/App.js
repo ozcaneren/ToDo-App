@@ -29,7 +29,7 @@ function App(props) {
     const updatedTasks = tasks.map(task => {
       // if this task has the same ID as the edited task
       if (id === task.id) {
-        // use object spread to make a new obkect
+        // use object spread to make a new object
         // whose `completed` prop has been inverted
         return {...task, completed: !task.completed}
       }
@@ -107,6 +107,7 @@ function App(props) {
         <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
           {headingText}
         </h2>
+        /* eslint-disable no-console, no-control-regex*/
         <ul
             role="list"
             className="todo-list stack-large stack-exception"
