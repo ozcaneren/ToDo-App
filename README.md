@@ -1,8 +1,8 @@
 # Getting Start!
 This project was bootstrapped with Create React App
 
+![Screenshot_20220902_181816](https://user-images.githubusercontent.com/100240225/188181355-c9bf2ff7-ad61-4690-a9e9-0b1317211361.png)
 
-![Screenshot_20220902_023917](https://user-images.githubusercontent.com/100240225/188030334-f1f507ad-039b-4009-b54b-608244f1de6b.png)
 
 
 
